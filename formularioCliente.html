@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="logo" href="img/Logo.png" type="image/png">
+    <link rel="stylesheet" href="css/formularioCliente.css">
+<body>
+    <div class="container">
+        <div class="titulo-formulario">
+            <img src="img/Logo2.png" alt="">
+            <h2>Formulario de Cliente</h2> 
+        </div>
+        
+        <form action="" method="get" class="form-container" id="clienteForm">
+            <div class="form-group">
+                <label for="documento">Documento:</label>
+                <input 
+                type="text" 
+                id="documento" 
+                placeholder="Ingrese el documento" 
+                required 
+                minlength="3" 
+                maxlength="10">
+            </div>
+
+            <div class="form-group">
+                <label for="nombre">Nombre Completo:</label>
+                <input 
+                    type="text" 
+                    id="nombre" 
+                    placeholder="Ingrese el nombre completo" 
+                    required 
+                    minlength="3" 
+                    maxlength="40">
+            </div>
+
+            <div class="form-group">
+                <label for="telefono">Telefono (+ 57):</label>
+                <input 
+                    type="text" 
+                    id="telefono" 
+                    placeholder="Ingrese el Telefono" 
+                    required 
+                    minlength="10" 
+                    maxlength="10">
+            </div>
+
+            <div class="form-group">
+                <label for="correo">Correo:</label>
+                <input 
+                    type="text" 
+                    id="correo" 
+                    placeholder="correo@ejemplo.com"
+                    required>
+            </div>
+
+            <div class="form-group">
+                <label for="direccion">Dirección:</label>
+                <input 
+                    type="text" 
+                    id="direccion" 
+                    placeholder="Ingrese la direccion"
+                    required> 
+            </div>
+
+            <div class="form-group">
+                <label for="placa">Vehiculo (Placa):</label>
+                <input 
+                    type="text" 
+                    id="placa" 
+                    placeholder="AAA-000"
+                    required> 
+            </div>
+
+            <div class="button-container">
+            <button id="btnRegistrar" type="submit">
+                Registrar Cliente
+            </button>
+            </div>
+
+        </form>
+    </div>
+    <script src="js/formularioCliente.js" ></script>
+</body>
+</html>
