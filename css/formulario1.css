@@ -37,12 +37,6 @@ body {
 .form-group {
     flex: 1 1 calc(50% - 15px);
     min-width: 250px;
-    /*
-        flex-grow: 1 → Permite que el elemento crezca si hay espacio disponible.
-        flex-shrink: 1 → Permite que el elemento se reduzca si no hay suficiente espacio.
-        flex-basis: calc(50% - 15px) → Define el tamaño inicial del elemento
-        antes de que flex-grow o flex-shrink actúen.
-    */
 }
 
 label {
